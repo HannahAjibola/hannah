@@ -1,0 +1,19 @@
+public class CarApplication {
+    public static void main(String[] args) {
+        
+        Car car1 = new Car("Toyota Camry", "2022", 25000.0);
+        Car car2 = new Car("Honda Civic", "2023", 30000.0);
+
+        
+        System.out.println("Initial Prices:");
+        System.out.println("Car 1 Price: $" + car1.getPrice());
+        System.out.println("Car 2 Price: $" + car2.getPrice());
+
+        car1.applyDiscount(5); 
+        car2.applyDiscount(7); 
+
+        System.out.println("\nPrices after Discounts:");
+        System.out.println("Car 1 Price: $" + car1.getPrice());
+        System.out.println("Car 2 Price: $" + car2.getPrice());
+    }
+}
