@@ -1,0 +1,95 @@
+Self review exercises chapter 2
+
+2.1
+a. left brace and right brace 
+b. if
+c. //
+d. new line/space characters/ tabs 
+e. keywords 
+f. main 
+g. System.out.print, system.out.println, system.out.printf
+
+2.2 
+a. they are not used to display text after the // on the screen when the progam executes 
+b. yes 
+c. java is case sensitive so the variable are distinct with means they can be used but they dont have the same values 
+d. no, it can be used with non integer operators in java 
+e. no, they all have different level of precedence 
+f. it is no longer a valid identifier 
+
+2.3 
+a. 	int c = 0 
+   int thisIsAVariable = 0
+	int q76354 = 0
+	int number = 0 
+
+b. System.out.print("enter an integer:");
+c.int value = input.nextInt();
+d.System.out.println("This is a java program");
+e. System.out.printf(%s%n%s%n, "this is a java", "program");
+f. if (number != 7){
+	System.out.print("The variable number is not equal to 7");
+}
+
+2.4
+a. an if statement does not have semicolon after the parentesis so it is not  correct 
+b. the relational operator should be changed to >= not =>
+
+2.5
+a. import java.util.Scanner;
+public class IntegerCalculation{
+pulic static void main(String[] args){
+	
+	Scanner input = new Scanner (System.in);
+System.out.print("Enter an integer:");
+int num1 = input.nextInt();
+
+System.out.print("Enter  integer:");
+int num2 = input.nextInt();
+
+System.out.print("Enter  integer:");
+int num3 = input.nextInt();
+
+int sum = num1 * num2 * num3;
+	System.out.print(result);
+}
+}
+
+2.7 
+a. comments 
+b. if statemnt 
+c./ and %
+d. left
+e. scanner
+
+2.8
+a. System.out.println("Enter an intger:");
+b. 
+c. //A program performs a sample payroll calculation
+
+2.9
+true, because all the operators dont have the same level of prcedence so there for the one with the lowest precedence are evaluated first
+b. no they are not, because java is case sensitive and are distint when it comes to naming convention
+c. no / division has the highest precedence 
+d. yes they are all valid 
+
+2.10
+a.x = 6
+b. value of 1,5 is 5
+c. 6 is not equal to 5
+
+2.11
+a. a,b
+
+2.12 
+a. a
+
+2.13
+a. 
+
+2.14
+a. System.out.println("")
+
+
+
+
